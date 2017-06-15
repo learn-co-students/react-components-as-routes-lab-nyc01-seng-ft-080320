@@ -48,7 +48,7 @@ Our `index.js` file is partially completed for us. It loads in the `BrowserRoute
 
 #### `data.js`
 
-This file contains seed data for __Actors, Movies, and Directors__
+This file contains seed data for __Actors, Movies and Directors__
 
 ## Component Info
 
@@ -58,7 +58,7 @@ This component should render our `Navbar` and 4 __React Router__ `Route` compone
 
 #### `Navbar`
 
-This component needs to render 4 `<NavLink>` components. They will be for __/, /movies, /directors, /actors__ <-- in this order(test checks for this).
+This component needs to render 4 `<NavLink>` components. They will be for __/, /movies, /directors & /actors__ <-- in this order(test checks for this).
 
 #### `Home`
 
