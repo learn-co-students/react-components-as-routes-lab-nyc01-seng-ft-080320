@@ -53,7 +53,7 @@ Our `index.js` file is completed for us. It loads App as the top level component
 
 #### `data.js`
 
-This file contains seed data for __Actors, Movies & Directors__
+This file contains seed data for __Actors, Movies and Directors__
 
 ## Component Info
 
