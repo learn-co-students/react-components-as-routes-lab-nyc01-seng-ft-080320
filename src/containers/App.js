@@ -1,21 +1,24 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Home from '../components/Home';
 import Actors from '../components/Actors';
 import Directors from '../components/Directors';
 import Movies from '../components/Movies';
 
-
 const App = (props) => {
-  return (
-    <Router>
-      {/*{code here}*/}
-    </Router>
-  );
+	return (
+		<Router>
+			<div>
+				<NavBar />
+				<Route path="/" render={() => <Home />} />
+				<Route path="/actors" render={() => <Actors />} />
+				<Route path="/movies" component={Movies} />
+				<Route path="/directors" component={Directors} />
+				{/*{code here}*/}
+			</div>
+		</Router>
+	);
 };
 
-export default App
+export default App;
